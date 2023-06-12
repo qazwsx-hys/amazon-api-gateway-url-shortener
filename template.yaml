@@ -197,7 +197,7 @@ Resources:
       Repository: !Ref GithubRepository
       AccessToken: !Ref PersonalAcessToken
       BuildSpec: |-
-        version: 1.0
+        version: 0.1
         frontend:
           phases:
             preBuild:
